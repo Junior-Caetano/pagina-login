@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
+</head>
+<body class="bg-imagem">
+    <main>
+        <section>
+            <div class="side-container">
+                <img src="./images/side.png" alt="Imagem lateral">
+            </div>    
+            <div class="login-container">
+                <img src="./images/logo.png" alt="Logo Infracommerce">
+                <h4>Olá novamente!</h4>
+                <h1>Login</h1>
+                <form>
+                    <div class="campos">
+                        <label class="label-email" for="email">Email</label>
+                        <div class="email">
+                        <label class="icone" for="email_icon"><img src="images/email_icon.png" alt="Icone email"></label>
+                        <input class="input-email" type="text" id="email" name="email" placeholder= "Digite seu email">
+                        </div>
+                        <label class="label-senha" for="senha">Senha</label>
+                        <div class="senha">
+                        <label class="icone" for="senha_icon"><img src="images/senha_icon.png" alt="Icone senha"></label>
+                        <input class="input-senha" type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                        </div>
+                    </div>
+                    <a href="" title="Contate um administrador">Esqueceu a senha?</a>
+                    <input class="button" type="button" value="Entrar" onclick="entrar()">                    
+                </form>
+            </div>
+        </section>
+    </main>   
+  <script src="./script.js"></script>
+  <footer>Copyright Junior Caetano 2023</footer> 
+</body>
+</html>

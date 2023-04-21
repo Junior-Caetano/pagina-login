@@ -1,0 +1,151 @@
+@import url(responsive.css);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-imagem {
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+  
+main, section, body, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-container,
+.login-container{
+    height: 587px;
+    width: 497px;
+    max-width: 500px;
+    max-height: 590px;
+    border: 3px solid white;
+}
+
+.side-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    display: flex;
+    justify-content: center;    
+}
+
+
+.side-container img {
+    max-width: 100%;
+    max-height: auto;
+    padding: 130px;    
+}
+
+.login-container{  
+    background-color: white;  
+    text-align: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.login-container img{
+    padding-top: 15px;
+}
+
+h1{    
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+form {
+	margin-top: 20px;    
+}
+
+label {
+    display: block;
+	margin-bottom: 5px;
+	text-align: left;
+    border-left: solid rgb(255, 255, 255 , 0) 65px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 270px ;
+    height: 35px ;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	background-color: white;        
+}
+
+.email,
+.senha{
+    display: flex;
+    justify-content: left;
+}
+
+.campos{    
+    padding-left: 17px;
+}
+
+.icone img{
+    width: 33px ;
+    height: 33px ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top: solid black 1px;
+    border-top-left-radius: 5px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+input[type="button"] {
+	background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: large;
+    width:300px;
+    height: 50px;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+    justify-content: left;	
+}
+
+input[type="button"]:hover {
+	background-color: #45a049;
+    color: rgb(62, 71, 59);    
+}
+
+a {
+	display: block;
+	margin-top: 15px;
+    margin-bottom: 30px;
+	color: #888888;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #333333;
+}
+footer {
+    position: absolute;    
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}

@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1000px) {
+    /* Estilos para larguras de tela menores ou iguais a 1000px */
+
+    section .side-container{
+        display: none;        
+    }
+
+    section .login-container {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .login-container img {
+        width: 50%;
+    }
+
+    .campos {
+        width: 80%;
+    }
+        
+}
+
+@media only screen and (max-width: 430px) {
+    /* Estilos para larguras de tela menores ou iguais a 430px */
+        
+    section .icone{
+        display: none;
+     }
+
+    section .side-container{
+        display: none;        
+    }
+
+    section .login-container img {
+        width: 60%;
+    }
+    
+    section .side-container{
+        display: none;        
+    }
+
+    section .login-container {
+        width: 80vw;
+        border-radius: 50px;
+        align-content: center;                     
+    }
+
+    .login-container img {
+        width: 40%;
+    }
+   
+    section form .button {
+        width:35vw;
+        height: 30px;
+        font-size: small;
+        padding: 0%;        
+    }
+
+    section form .input-senha,
+    section form .input-email{
+        width: 53vw;
+        border-radius: 5px;
+    }
+    
+    section form .senha,
+    section form .email{
+        align-content: center;
+        width: 65vw;            
+    }
+
+       
+    section .campos {
+        padding-left: 10vw;
+    }
+ 
+    .label-senha,
+    .label-email {
+        margin-bottom: 5px;
+        text-align: center;
+        border-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 200px) {
+    /* Estilos para larguras de tela menores ou iguais a 200px */
+
+    section .campos {
+        padding-left: 5vw;
+    }
+ 
+}
+
+
